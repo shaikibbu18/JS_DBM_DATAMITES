@@ -9,7 +9,7 @@ create database joins;
 
 use joins;
 create table employee
-(empid varchar(10) unique , empname varchar(20) , salary int , deptid varchar(10) primary key );
+(empid primary key, empname varchar(20) , salary int , deptid varchar(10));
 insert into employee values
 ('E1' ,'John' , 450000 , 'D1') ,
 ('E2' ,'Mary',73000,'D2'),
